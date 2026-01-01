@@ -40,6 +40,10 @@
     }
     *{box-sizing:border-box}
     html,body{height:100%}
+    html {
+      font-size: 100%; /* respects user default, usually 16px */
+    }
+
     body{
       margin:0;
       font-family:var(--font);
@@ -60,14 +64,14 @@
       margin-bottom:28px;
     }
     .kicker{
-      font-size:12px;
+      font-size: 0.75rem; /* 12 / 16 */
       letter-spacing:.12em;
       text-transform:uppercase;
       color:var(--muted);
       margin:0 0 10px 0;
     }
     h1{
-      font-size:34px;
+      font-size: 2.125rem; /* 34 / 16 */
       margin:0 0 10px 0;
       letter-spacing:-.02em;
     }
@@ -79,7 +83,7 @@
     .intro a{font-weight:600}
     .section-title{
       margin:30px 0 12px 0;
-      font-size:14px;
+      font-size: 0.875rem; /* 14 / 16 */
       color:var(--muted);
       letter-spacing:.08em;
       text-transform:uppercase;
@@ -134,7 +138,7 @@
     }
     .title{
       margin:0 0 8px 0;
-      font-size:22px;
+      font-size: 1.375rem; /* 22 / 16 */
       letter-spacing:-.01em;
     }
     .titlelink{
@@ -153,7 +157,7 @@
       gap:10px;
       flex-wrap:wrap;
       color:var(--muted);
-      font-size:13px;
+      font-size: 0.8125rem; /* 13 / 16 */
     }
     .pill{
       border:1px solid var(--line);
@@ -164,11 +168,11 @@
     footer{
       margin-top:42px;
       color:var(--muted);
-      font-size:13px;
+      font-size: 0.8125rem; /* 13 / 16 */
     }
     .updated {
-      margin: 6px 0 10px 0;
-      font-size: 13px;
+      margin: 8px 0 0px 0;
+      font-size: 0.8125rem; /* 13 / 16 */
       color: var(--muted);
     }
     .card.archived .updated {
@@ -218,15 +222,16 @@
               An interactive playground for comparing one-dimensional distribution summaries.
               Includes box plots, rugs, density-style bands, and new variants based on shortest half. 
             </p>
-<p class="updated">
-  Created 2025-07-05 <span class="sep">·</span> Updated 2026-01-05
-</p>
+
 
             <div class="meta" aria-label="Project metadata">
               <span class="pill">Interactive</span>
               <span class="pill">Data visualization</span>
               <span class="pill">GitHub Pages</span>
             </div>
+<p class="updated">
+  Created 2025-07-05 <span class="sep">·</span> Updated 2026-01-05
+</p>
           </div>
         </div>
       </li>
@@ -245,15 +250,16 @@
               An interactive demonstration of a minor flaw in robust loess regression which occurs when the original data is already very smooth.
               In that case, the usual robustness passes can create artifacts in the data.
             </p>
-<p class="updated">
-  Created 2020-02-15 <span class="sep">·</span> Updated 2025-11-06
-</p>
+
 
             <div class="meta" aria-label="Project metadata">
               <span class="pill">Interactive</span>
               <span class="pill">Data visualization</span>
               <span class="pill">Observable</span>
             </div>
+ <p class="updated">
+  Created 2020-02-15 <span class="sep">·</span> Updated 2025-11-06
+</p>
           </div>
         </div>
       </li>
@@ -271,18 +277,21 @@
             <p class="desc">
               An interactive workbench to experiment with several dot plot variations.
             </p>
-<p class="updated">
-  Created 2019-02-06 <span class="sep">·</span> Updated 2021-05-29
-</p>
+
 
             <div class="meta" aria-label="Project metadata">
               <span class="pill">Interactive</span>
               <span class="pill">Data visualization</span>
               <span class="pill">Observable</span>
             </div>
+    <p class="updated">
+  Created 2019-02-06 <span class="sep">·</span> Updated 2021-05-29
+</p>
           </div>
         </div>
-      </li>    </ul>
+      </li>
+
+    </ul>
 
     <footer>
       <p>
