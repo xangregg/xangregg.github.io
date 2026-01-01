@@ -45,6 +45,9 @@
     }
 
     body{
+      display:flex;
+      flex-direction:column;
+      justify-content:flex-start; /* explicit */
       margin:0;
       font-family:var(--font);
       background: radial-gradient(1200px 600px at 30% -10%, rgba(139,211,255,.18), transparent 60%),
@@ -53,6 +56,12 @@
       color:var(--text);
       line-height:1.5;
     }
+    .card-footer{
+      margin-top:auto;            /* key line: pushes footer to bottom */
+      padding-top:12px;           /* spacing from description */
+    }
+    .meta{ margin:0; }            /* optional: ensure no weird spacing */
+    .dates{ margin:8px 0 0 0; }   /* tidy spacing under pills */
     a{color:var(--link); text-decoration:none}
     a:hover{text-decoration:underline}
     .wrap{
@@ -223,7 +232,7 @@
               Includes box plots, rugs, density-style bands, and new variants based on shortest half. 
             </p>
 
-
+<div class="card-footer">
             <div class="meta" aria-label="Project metadata">
               <span class="pill">Interactive</span>
               <span class="pill">Data visualization</span>
@@ -232,6 +241,7 @@
 <p class="updated">
   Created 2025-07-05 <span class="sep">·</span> Updated 2026-01-05
 </p>
+</div>
           </div>
         </div>
       </li>
@@ -251,7 +261,7 @@
               In that case, the usual robustness passes can create artifacts in the data.
             </p>
 
-
+<div class="card-footer">
             <div class="meta" aria-label="Project metadata">
               <span class="pill">Interactive</span>
               <span class="pill">Data visualization</span>
@@ -260,6 +270,7 @@
  <p class="updated">
   Created 2020-02-15 <span class="sep">·</span> Updated 2025-11-06
 </p>
+</div>
           </div>
         </div>
       </li>
@@ -278,7 +289,7 @@
               An interactive workbench to experiment with several dot plot variations.
             </p>
 
-
+<div class="card-footer">
             <div class="meta" aria-label="Project metadata">
               <span class="pill">Interactive</span>
               <span class="pill">Data visualization</span>
@@ -287,6 +298,7 @@
     <p class="updated">
   Created 2019-02-06 <span class="sep">·</span> Updated 2021-05-29
 </p>
+</div>
           </div>
         </div>
       </li>
