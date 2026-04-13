@@ -13,7 +13,13 @@ in github pages and elsewhere.
   Interactive experiments in compact distribution summaries and data visualization.  
   https://xangregg.github.io/data-strips/
 
-(Additional projects may be added over time.)
+- **Comma,Comma**  
+  Browser-based tabular data format convert. Mainly for R -> CSV.  
+  https://xangregg.github.io/commacomma/
+  
+- **Paired Disributions Survey**  
+  A survey to compare distribution visualizations.  
+  https://xangregg.github.io/pairstudy121/?group=gh2
 
 ## Writing & context
 
@@ -23,6 +29,5 @@ https://rawdatastudies.com/
 
 ## Notes
 
-- The site is hosted via GitHub Pages and therefore must be public.
 - Analytics are privacy-friendly (no cookies, no personal data).
 - Contact on Bluesky: [@xangregg.bsky.social](https://bsky.app/profile/xangregg.bsky.social)
